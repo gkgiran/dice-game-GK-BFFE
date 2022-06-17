@@ -1,0 +1,45 @@
+.dice-wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dice-area {
+  background-color: brown;
+  text-align: center;
+}
+
+h2 {
+  
+  margin: 2rem 0;
+}
+
+p {
+  color: #0e0505;
+  font-size: 1.6rem;
+  margin: 3rem 0;
+}
+
+.btn {
+  background-color: #000000;
+  border: none;
+  outline: none;
+  padding: 1.5rem 0;
+  width: 15rem;
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+  color: rgb(255, 0, 0);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.reset {
+  background-color: transparent;
+  color: #000000;
+}
+
+
+ul {
+  list-style: none;
+  font-size: 1.6rem;
+}
