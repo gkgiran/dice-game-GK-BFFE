@@ -1,15 +1,15 @@
-import React, { useState, useRef } from 'react';
-import dice1 from '../../images/dice1.svg';
-import dice2 from '../../images/dice2.svg';
-import dice3 from '../../images/dice3.svg';
-import dice4 from '../../images/dice4.svg';
-import dice5 from '../../images/dice5.svg';
-import dice6 from '../../images/dice6.svg';
+import React, { useState, useRef } from "react";
+import dice1 from "../../images/dice1.svg";
+import dice2 from "../../images/dice2.svg";
+import dice3 from "../../images/dice3.svg";
+import dice4 from "../../images/dice4.svg";
+import dice5 from "../../images/dice5.svg";
+import dice6 from "../../images/dice6.svg";
 
-import './index.css';
+import "./index.css";
 
 function Dices() {
-  const [result, setResult] = useState('Click this button below to start');
+  const [result, setResult] = useState("Click this button below to start");
   const [history, setHistory] = useState([]);
 
   const user1 = useRef(null);
@@ -54,8 +54,8 @@ function Dices() {
       ]);
     }
 
-    user1.current.setAttribute('src', diceImages[firstRandomNum]);
-    user2.current.setAttribute('src', diceImages[secondRandomNum]);
+    user1.current.setAttribute("src", diceImages[firstRandomNum]);
+    user2.current.setAttribute("src", diceImages[secondRandomNum]);
   };
 
   const reset = () => {
@@ -64,23 +64,23 @@ function Dices() {
 
   return (
     <>
-      <div className='dice-wrapper'>
-        <div className='dice-area'>
+      <div className="dice-wrapper">
+        <div className="dice-area">
           <p>User 1</p>
-          <img src={dice1} ref={user1} alt='Dice' />
+          <img src={dice1} ref={user1} alt="Dice" />
         </div>
-        <div className='dice-area'>
+        <div className="dice-area">
           <p>User 2</p>
-          <img src={dice1} ref={user2} alt='Dice' />
+          <img src={dice1} ref={user2} alt="Dice" />
         </div>
       </div>
-      <p className='result' ref={resultDice}>
+      <p className="result" ref={resultDice}>
         {result}
       </p>
-      <button onClick={roll} className='btn'>
+      <button onClick={roll} className="btn">
         Roll the dice
       </button>
-      <button onClick={reset} className='btn reset'>
+      <button onClick={reset} className="btn reset">
         Reset
       </button>
       <h2 ref={titleHistoryResult}>History</h2>

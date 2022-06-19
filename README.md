@@ -1,12 +1,12 @@
 # Dice Game 🎲
 
-![Dice Game 🎲](./static/dice-game.png)
+![Dice Game 🎲]
 
 This is a Dice Game built with React JS.
 
-Site: https://dice-react.netlify.app/
+Site: https://gkbffenfts.com/
 
-## Technologies
+## VScode
 
 This game is built with:
 
@@ -16,26 +16,24 @@ This game is built with:
 
 Download this project:
 
-```sh
-git clone git@github.com:iscasur/dice-game.git
+```Make Emty folder, open it in terminal and run this comment
+git clone git@github.com:gkgiran/dice-game-GK-BFFE.git
 ```
 
-Go to the project directory:
+Go to the project Terminal:
 
-```sh
-cd dice-game
-```
+````
 
 Install all dependencies
 
 ```sh
 npm install
-```
+````
 
 Run development enviroment
 
 ```sh
-npm start
+npm run start
 ```
 
 Runs the app in the development mode.\
@@ -43,4 +41,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## License
 
-This project is MIT licensed
+This project made for GK BFFE NFTs games.
